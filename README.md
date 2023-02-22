@@ -38,11 +38,11 @@ Please upload the code for this project to GitHub or anywhere, and post a link t
 
 
 # Information about implementation
-Overall, the code provides a basic implementation of an ATM and account system that allows users to perform transactions and view their account balance.
-The provided code includes three classes: ATM, Account, and the main function.
+The code provides a basic implementation of an ATM and account system that allows users to perform transactions and view their account balance.
+The provided code includes two classes: ATM, Account, and a main function.
 
-The ATM class represents an automated teller machine and has methods to insert and remove cards, view the balance of the ATM, deposit cash into the ATM, and withdraw cash from the ATM. The initial balance of the ATM is set in the constructor.
+The ATM class represents an automated teller machine and has methods to insert and remove a card. The cashbin will be implemented in the future, where features like viewing the balance of the ATM, depositing cash into the ATM, and withdrawing cash from the ATM will be available. The initial balance of the ATM is set in the constructor.
 
-The Account class represents a user account and has methods to check if the PIN number is correct, check the account balance, deposit cash into the account, or withdraw cash from the account. The account details including the account holder's name, PIN number, account number, and current balance are set in the constructor.
+The Account class represents a user account and has methods to check if the PIN number is correct, see the account balance, deposit cash into the account, or withdraw cash from the account. The account details including the account holder's name, PIN number, account number, and current balance are set in the constructor.
 
 The main function creates an Account object with initial account details, and an ATM object with an initial balance. It then runs a loop to simulate a user transaction by taking input from the user to insert the card, enter the PIN number, select an account, and perform transactions such as checking the balance, depositing cash, and withdrawing cash. The loop continues until the user ends the transaction by selecting the option to end the transaction by removing the card.
